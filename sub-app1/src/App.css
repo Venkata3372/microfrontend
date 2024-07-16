@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.welcome-text {
+  margin: 10px 0;
+}
+
+.font1 {
+  font-family: 'Arial', sans-serif;
+  color: red;
+}
+
+.font2 {
+  font-family: 'Courier New', monospace;
+  color: blue;
+}
+
+.font3 {
+  font-family: 'Georgia', serif;
+  color: green;
+}
+
+.font4 {
+  font-family: 'Times New Roman', serif;
+  color: orange;
+}
+
+.font5 {
+  font-family: 'Verdana', sans-serif;
+  color: purple;
+}

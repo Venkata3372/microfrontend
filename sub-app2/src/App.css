@@ -1,0 +1,45 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #282c34;
+  color: rgb(224, 75, 75);
+  font-family: 'Arial', sans-serif;
+}
+
+.time {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.button {
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button-primary {
+  background-color: #61dafb;
+}
+
+.button-primary-active {
+  background-color: #21a1f1;
+}
+
+.button-primary-inactive {
+  background-color: #61dafb;
+}
